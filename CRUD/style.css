@@ -1,0 +1,80 @@
+.container{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.credentials{
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.login {
+    background-color: #ffff0057;
+    width: 100%;
+    height: 100%;
+}
+
+a:link {
+    color: #0033ff;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: #69ff9e;
+}
+
+/* selected link */
+a:active {
+    color: #ff0026;
+}
+.register{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background: rgb(0, 217, 255);
+}
+
+.newrecord{
+    padding: 10px;
+    position: absolute;
+    left: 500px;
+}
+.log_out{
+    padding: 10px;
+    position: absolute;
+    right: 300px;
+}
+
+.product_record{
+    padding: 10px;
+}
+
+input[type=text] {
+    width: 10%;
+    padding: 5px 2px;
+    margin: 3px 0;
+    box-sizing: border-box;
+}
+strong{
+    padding-right: 50px;
+}
+.home{
+    width: 25%;
+}
+.btn {
+    float: left;
+}
+
+.lk {
+    float: right;
+}
+.client_login{
+    position: relative;
+    left:200px;
+
+}

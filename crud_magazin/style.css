@@ -1,0 +1,152 @@
+.container{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.credentials{
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.login {
+    background-color: rgba(0, 255, 128, 0.34);
+    width: 100%;
+    height: 100%;
+}
+
+a:link {
+    color: #0033ff;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: #69ff9e;
+}
+
+/* selected link */
+a:active {
+    color: #ff0026;
+}
+.register{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background: rgb(0, 217, 255);
+}
+
+.newrecord{
+    padding: 10px;
+    position: absolute;
+    left: 500px;
+}
+.log_out{
+    padding: 10px;
+    position: absolute;
+    right: 300px;
+}
+
+.product_record{
+    padding: 10px;
+}
+
+input[type=text] {
+    width: 10%;
+    padding: 5px 2px;
+    margin: 3px 0;
+    box-sizing: border-box;
+}
+strong{
+    padding-right: 50px;
+}
+.home{
+    width: 25%;
+}
+.btn {
+    float: left;
+}
+
+.lk {
+    float: right;
+}
+
+.product-item{
+    width: 60%;
+    display: inline-block;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.product-image{
+    width: 30%;
+    display: inline-block;
+    float: left;
+    border-color: #00b3ff;
+    border-style: solid;
+    border-radius: 25px;
+}
+.num{
+    width: 68%;
+    display: inline-block;
+    float: right;
+}
+.product-price{
+    width: 66%;
+    display: inline-block;
+    float: left;
+    padding-left: 17px;
+}
+.buy{
+    width: 65%;
+    display: inline-block;
+    float: right;
+    padding-top:100px;
+}
+.txt-headinglabel{
+    font-weight: bold;
+    font-size: 150%;
+    font-family:sans-serif;
+}
+.txt-heading-label{
+    font-weight: bold;
+    font-size: 150%;
+    font-family:sans-serif;
+}
+.meniu_cos{
+    width: 100%;
+    padding-top: 15px;
+}
+.continua{
+    float: left;
+    margin-right: 50px;
+}
+.comanda{
+    float: left;
+    margin-right: 150px;
+
+}
+.exit{
+    float: left;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #36f495;
+    color: #0a0a0a;
+}
+
+.closebtn {
+    font-size: 33px;
+    line-height: 70px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.closebtn:hover {
+    color: black;
+}
